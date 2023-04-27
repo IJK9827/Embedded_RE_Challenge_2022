@@ -172,4 +172,5 @@ Also the compare string function returns early if the first chars aren't equal.
 I would make a program to brute force different lengths while recording an accurate time in nanoseconds taken to reply.
 Then with the longest time, brute force the first char, and do the same for the other chars in order finding the longest computation time for all of them.
 
+There are also buffer overflow vulnerabilities in the USART input.
 Some other vulnerability ideas I had could be turning on unnesscary devices and unstable power to skip instructions (not firmware),
